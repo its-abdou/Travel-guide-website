@@ -1,0 +1,17 @@
+.bg-body-tertiary {
+  width: 90% !important;
+  margin: auto !important;
+  font-family: "Poppins", "sans-serif" !important;
+  background-color: white !important;
+}
+.cont {
+  width: 95% !important;
+  height: 7% !important;
+  /* border: 1px solid hsl(0, 0%, 0%); */
+}
+.me-auto {
+  color: black !important;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s linear;
+}

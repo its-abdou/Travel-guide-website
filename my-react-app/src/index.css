@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", "sans-serif";
+}
+
+@media screen and (max-width: 1485px) {
+  .hotels {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1373px) {
+  .hotels {
+    width: 72%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  header {
+    width: 90%;
+  }
+  .hotels {
+    width: 82%;
+  }
+  .history {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header {
+    width: 95%;
+  }
+  header .trip_bx .explore_bx {
+    width: 70%;
+  }
+  header .trip_bx .monument_bx .cards {
+    overflow: auto;
+  }
+  header .trip_bx .monument_bx .cards .card {
+    min-width: 220px;
+    margin-right: 10px;
+  }
+  .hotels {
+    width: 95%;
+  }
+  .history {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 950px) {
+  header .trip_bx .explore_bx {
+    width: 85%;
+  }
+  header .trip_bx .explore_bx .caption {
+    margin-right: 8px;
+  }
+  .history {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 714px) {
+  header .trip_bx .explore_bx {
+    width: 93%;
+  }
+  .hotels {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 650px) {
+  header .trip_bx .explore_bx .caption {
+    width: 400px;
+  }
+  header .trip_bx .explore_bx input {
+    position: absolute;
+    right: -20px;
+    bottom: -70px;
+    font-size: 13px;
+  }
+  .hotels {
+    width: 85%;
+    margin-top: 0px;
+  }
+  .history {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .history .his_box .img_bx {
+    position: relative;
+    width: 55%;
+    height: auto;
+  }
+  .history .his_box {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 541px) {
+  header .content .cont_bx {
+    width: 85%;
+  }
+  header .content .cont_bx h1 {
+    width: 300px;
+    font-size: 22px;
+  }
+  header .content .cont_bx p {
+    width: 300px;
+    font-size: 12px;
+  }
+  header .trip_bx .explore_bx {
+    width: 89%;
+  }
+  header .trip_bx .explore_bx .caption {
+    width: 350px;
+  }
+  .hotels h1 {
+    font-size: 22px;
+  }
+  .hotels p {
+    font-size: 14px;
+  }
+  .hotels .cards {
+    justify-content: center;
+  }
+  .history .his_box .img_bx {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 411px) {
+  .hotels {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hotels {
+    margin-top: 15px;
+  }
+}

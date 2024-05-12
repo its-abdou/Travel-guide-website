@@ -1,0 +1,155 @@
+.hotels {
+  width: 60%;
+  height: auto;
+  /* border: 1px solid hsla(0, 0%, 0%); */
+  margin: auto;
+  text-align: center;
+  transition: 0.5s linear;
+}
+.hotels h1 {
+  font-weight: 600;
+  margin: 0;
+}
+.hotels p {
+  font-weight: 500;
+  margin: 0;
+}
+.hotels .cards {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid hsla(0, 0%, 0%); */
+  flex-wrap: wrap;
+}
+.hotels .cards .card {
+  position: relative;
+  width: 200px;
+  height: 350px;
+  /* border: 1px solid hsla(0, 0%, 0%); */
+}
+.hotels .cards .card h3 {
+  width: 140px;
+  padding: 6px 0px;
+  background-color: hsl(120, 76%, 80%);
+  border-radius: 20px;
+  font-size: 12px;
+
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+.hotels .cards .card .img_hotel {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: 5px;
+}
+.hotels .cards .card .img_hotel img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.hotels .cards .card .img_hotel h4 {
+  position: absolute;
+  font-size: 9px;
+  padding: 10px 15px;
+  bottom: 0;
+  margin: 0px;
+  color: hsl(0, 0%, 100%);
+  z-index: 2;
+}
+
+.hotels .cards .card .img_hotel h4::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(5px);
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+}
+.hotels .cards .card .cont_bx {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid hsl(0, 0%, 84%); */
+  padding: 5px 0px;
+  border-radius: 0px 0px 5px 5px;
+}
+.hotels .cards .card .cont_bx .price {
+  margin: 0px 5px;
+}
+.hotels .cards .card .cont_bx .price .heart_chat {
+  display: flex;
+  align-items: center;
+}
+.hotels .cards .card .cont_bx .price .heart_chat i:first-child {
+  color: hsl(0, 100%, 50%);
+  font-size: 13px;
+  margin-right: 10px;
+}
+.hotels .cards .card .cont_bx .price .heart_chat i span {
+  color: hsl(0, 0%, 0%);
+  font-size: 12px;
+  margin-left: 3px;
+  font-style: normal;
+}
+
+.hotels .cards .card .cont_bx .price .heart_chat i:last-child {
+  color: hsl(197, 69%, 67%);
+  font-size: 13px;
+  margin-right: 11px;
+}
+.hotels .cards .card .cont_bx .price .info_price {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+.hotels .cards .card .cont_bx .price .info_price a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  font-size: 11px;
+  font-weight: 700;
+  transition: 0.3s linear;
+  margin-right: 10px;
+}
+.hotels .cards .card .cont_bx .price .info_price a:hover {
+  color: hsl(0, 0%, 50%);
+}
+.hotels .cards .card .cont_bx .price .info_price h4 {
+  margin: 0px;
+  font-size: 12px;
+}
+.hotels .cards .card .cont_bx .dayes {
+  margin: 0px 8px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 0%);
+  font-size: 8px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.hotels .cards .card .cont_bx .dayes:hover {
+  transform: rotate(360deg);
+}
+.hotels input {
+  background: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+.hotels input:hover {
+  background: hsl(0, 0%, 25%);
+}
