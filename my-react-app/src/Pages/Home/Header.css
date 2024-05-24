@@ -1,6 +1,6 @@
 header {
   width: 90%;
-  height: 95vh;
+  height: 90vh;
   /* border: 1px solid hsl(0, 0%, 0%); */
   margin: auto;
 }
@@ -123,8 +123,8 @@ header .trip_bx .monument_bx .cards {
   justify-content: space-between;
 }
 header .trip_bx .monument_bx .cards .card {
-  min-width: 220px;
-  height: 185px;
+  min-width: 250px;
+  height: 200px;
   /* border: 1px solid hsla(0, 0%, 0%); */
 }
 
@@ -141,9 +141,9 @@ header .trip_bx .monument_bx .cards .card h3 img {
   margin-left: 5px;
 }
 header .trip_bx .monument_bx .cards .card img {
-  width: 240px;
-  height: 110px;
-
+  width: 248px;
+  height: 150px;
+  object-fit: contain;
 }
 header .trip_bx .monument_bx .cards .card a {
   text-decoration: none;

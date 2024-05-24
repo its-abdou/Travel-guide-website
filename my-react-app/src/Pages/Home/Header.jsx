@@ -5,7 +5,7 @@ import Bey_icon from "../../assets/vaduz-cathedral.png";
 import Banner from "../../assets/Header.jpg";
 import Bey_Palace from "../../assets/palais du bey.jpeg";
 import Colisieum from "../../assets/Arènes-doran.jpg";
-import Cathedral from "../../assets/cathedrale.jpg";
+import Cathedral from "../../assets/Cathedral.jpg";
 import Santa_Cruz from "../../assets/image2.jpg";
 import "./Header.css";
 function Header() {
@@ -36,7 +36,7 @@ function Header() {
                     <img src={Santa_icon} alt="santa cruz 🗽" />
                   </h3>
                   <img src={Santa_Cruz} alt="" />
-                  <a href="#">Read Now</a>
+                  <a href="#">Visit Now</a>
                 </div>
                 <div className="card">
                   <h3>
@@ -44,7 +44,7 @@ function Header() {
                     <img src={Cathedral_icon} alt="santa cruz 🗽" />
                   </h3>
                   <img src={Cathedral} alt="" />
-                  <a href="#">Read Now</a>
+                  <a href="#">Visit Now</a>
                 </div>
                 <div className="card">
                   <h3>
@@ -52,7 +52,7 @@ function Header() {
                     <img src={Coliseum_icon} alt="santa cruz 🗽" />
                   </h3>
                   <img src={Colisieum} alt="" />
-                  <a href="#">Read Now</a>
+                  <a href="#">Visit Now</a>
                 </div>
                 <div className="card">
                   <h3>
@@ -60,7 +60,7 @@ function Header() {
                     <img src={Bey_icon} alt="santa cruz 🗽" />
                   </h3>
                   <img src={Bey_Palace} alt="" />
-                  <a href="#">Read Now</a>
+                  <a href="#">Visit Now</a>
                 </div>
               </div>
             </div>
