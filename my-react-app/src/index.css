@@ -25,7 +25,7 @@
     width: 55%;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1360px) {
   header {
     width: 95%;
   }
@@ -36,7 +36,7 @@
     overflow: auto;
   }
   header .trip_bx .monument_bx .cards .card {
-    min-width: 220px;
+    min-width: 250px;
     margin-right: 10px;
   }
   .hotels {
@@ -93,6 +93,13 @@
   }
 }
 @media screen and (max-width: 541px) {
+  .hotels .cards .card {
+    position: relative;
+    width: 200px;
+    height: 350px;
+    /* border: 1px solid hsla(0, 0%, 0%); */
+    margin: 10px;
+  }
   header .content .cont_bx {
     width: 85%;
   }
@@ -118,6 +125,7 @@
   }
   .hotels .cards {
     justify-content: center;
+    margin: 10px;
   }
   .history .his_box .img_bx {
     width: 80%;
@@ -132,4 +140,13 @@
   .hotels {
     margin-top: 15px;
   }
+  .hotels .cards .card{
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  header .trip_bx .monument_bx .cards .card img {
+    width: 218px;
+    height: 110px;
+}
 }
