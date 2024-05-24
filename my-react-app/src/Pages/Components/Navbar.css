@@ -15,3 +15,14 @@
   font-weight: 500;
   transition: 0.3s linear;
 }
+.btn-login {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}

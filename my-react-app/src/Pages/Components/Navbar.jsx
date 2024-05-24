@@ -28,6 +28,9 @@ function Navbar() {
             <Nav.Link as={Link} to="/history">
               History
             </Nav.Link>
+            <Nav.Link as={Link} to="/login" className="btn-login">
+  Login
+</Nav.Link>
             <NavDropdown title="Attraction" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/attraction/monuments">
                 Monuments
