@@ -1,5 +1,5 @@
 .hotels {
-  width: 60%;
+  /* width: 60%; */
   height: auto;
   /* border: 1px solid hsla(0, 0%, 0%); */
   margin: auto;
@@ -15,10 +15,11 @@
   margin: 0;
 }
 .hotels .cards {
-  /* margin-top: 20px; */
+  margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
   /* border: 1px solid hsla(0, 0%, 0%); */
   flex-wrap: wrap;
 }
@@ -26,7 +27,6 @@
   position: relative;
   width: 200px;
   height: 350px;
-  margin: 15px;
   /* border: 1px solid hsla(0, 0%, 0%); */
 }
 .hotels .cards .card h3 {

@@ -16,13 +16,14 @@
   transition: 0.3s linear;
 }
 .btn-login {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #242526f2 !important;
+  color: #fff !important;
   border-radius: 5px;
   padding: 5px 10px;
   text-decoration: none;
+  transition: 0.3s linear;
 }
 
 .btn-login:hover {
-  background-color: #0056b3;
+  background-color: #4b4e51 !important;
 }
