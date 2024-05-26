@@ -140,13 +140,7 @@
   /* .hotels {
     margin-top: 15px;
   } */
-  .hotels .cards .card{
+  .hotels .cards .card {
     margin: 10px;
   }
-}
-@media screen and (max-width: 750px) {
-  header .trip_bx .monument_bx .cards .card img {
-    width: 218px;
-    height: 110px;
-}
 }

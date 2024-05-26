@@ -14,9 +14,9 @@
     "carousel": "^0.0.3",
     "formik": "^2.4.6",
     "mdb-react-ui-kit": "^8.0.0",
-    "react": "^18.2.0",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
     "yup": "^1.4.0"
   },
@@ -26,6 +26,12 @@
     "@vitejs/plugin-react": "^4.2.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "prettier": "3.2.5",
     "vite": "^5.2.11"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

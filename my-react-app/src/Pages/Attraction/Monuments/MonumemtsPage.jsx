@@ -7,14 +7,14 @@ function MonumemtsPage() {
   return (
     <div>
       <div className="Monuments">
-      <div className="title">
-        <h1>Palais du Bey</h1>
-      </div>  
-      {/* <Monumemt></Monumemt> */}
-      <PalaisBey></PalaisBey>
+        <div className="title">
+          <h1>Palais du Bey</h1>
+        </div>
+        {/* <Monumemt></Monumemt> */}
+        <PalaisBey></PalaisBey>
+      </div>
+      <Footer></Footer>
     </div>
-    <Footer></Footer>
-  </div>  
   );
 }
 export default MonumemtsPage;
