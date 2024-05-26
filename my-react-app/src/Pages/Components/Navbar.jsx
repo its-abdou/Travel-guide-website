@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <NavbarBootstrap expand="lg" className="bg-body-tertiary">
       <Container className="cont">
-        <NavbarBootstrap.Brand to="/">
+        <NavbarBootstrap.Brand as={Link} to="/">
           <img src={Logo} alt="Logo" width="90" />
         </NavbarBootstrap.Brand>
         <NavbarBootstrap.Toggle aria-controls="basic-navbar-nav" />
@@ -32,7 +32,7 @@ function Navbar() {
               <NavDropdown.Item as={Link} to="/attraction/monuments">
                 Monuments
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/attraction/parks">
+              <NavDropdown.Item as={Link} to="/hotels">
                 Parks
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/attraction/beaches">

@@ -1,0 +1,21 @@
+/* HotelsList.css */
+.hotel-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hotel-item {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hotel-name {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.hotel-details {
+  margin: 0.5em 0;
+}
