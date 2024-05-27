@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+import { Link } from "react-router-dom";
 import {
   MDBFooter,
   MDBContainer,
@@ -55,38 +55,42 @@ export default function Footer() {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Navigation</h6>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/" className="text-reset">
                   Home
-                </a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Explore
-                </a>
+                <Link to="/login" className="text-reset">
+                  Login
+                </Link>
+              </p>
+            </MDBCol>
+
+            <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Services</h6>
+              <p>
+                <Link to="/Services/Hotels" className="text-reset">
+                  Hotels
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  History
-                </a>
+                <Link to="/Services/Restaurents" className="text-reset">
+                  Restaurants
+                </Link>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Attraction</h6>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/attraction/monuments" className="text-reset">
                   Monuments
-                </a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Parks
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Beaches
-                </a>
+                <Link to="/attraction/malls" className="text-reset">
+                  Malls
+                </Link>
               </p>
             </MDBCol>
 

@@ -1,11 +1,11 @@
-import Home from "./Pages/Home/Home.jsx";
-import Explore from "./Pages/Explore/Explore.jsx";
-import HistoryPage from "./Pages/History/HistoryPage.jsx";
-import Header from "./Pages/Home/Header.jsx";
 import Navbar from "./Pages/Components/Navbar.jsx";
+import Home from "./Pages/Home/Home.jsx";
+import Header from "./Pages/Home/Header.jsx";
+import HotelPage from "./Pages/Services/Hotels/HotelPage.jsx";
+import RestaurantsList from "./Pages/Services/Restaurents/RestaurantsList.jsx";
 import MonumentsPage from "./Pages/Attraction/Monuments/MonumemtsPage.jsx";
+import MallsPage from "./Pages/Attraction/Malls/MallsPage.jsx";
 import Loginpage from "./Pages/Login/Loginpage.jsx";
-import HotelsList from "./Pages/Hotels/HotelsList.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 
@@ -15,12 +15,12 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Explore" element={<Explore />} />
-        <Route path="/History" element={<HistoryPage />} />
         <Route exact path="/" component={<Header />} />
+        <Route path="/Services/Hotels" element={<HotelPage />} />
+        <Route path="/Services/Restaurents" element={<RestaurantsList />} />
         <Route path="/attraction/monuments" element={<MonumentsPage />} />
+        <Route path="/attraction/malls" element={<MallsPage />} />
         <Route path="/Login" element={<Loginpage />} />
-        <Route path="/hotels" element={<HotelsList />} />
       </Routes>
     </>
   );
