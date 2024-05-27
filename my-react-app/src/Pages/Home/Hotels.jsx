@@ -3,6 +3,8 @@ import FourPoints from "../../assets/FourPoints.webp";
 import Royal from "../../assets/Royal.webp";
 import Rodina from "../../assets/Rodina.webp";
 import "./Hotels.css";
+import { Link } from "react-router-dom";
+
 function Hotels() {
   return (
     <div className="hotels">
@@ -146,7 +148,9 @@ function Hotels() {
           </div>
         </div>
       </div>
-      <input type="button" value="Explore more" />
+      <Link to="/Services/Hotels">
+        <input type="button" value="Explore more" />
+      </Link>
     </div>
   );
 }
