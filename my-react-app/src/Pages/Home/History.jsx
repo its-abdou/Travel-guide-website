@@ -12,7 +12,9 @@ function History() {
           Mountain of Lions.' This legend is commemorated by two lion statues at
           Oran's city hall, symbolizing the city's historic ties.
         </p>
-        <button type="button">KNOW MORE</button>
+        <a href="https://en.wikipedia.org/wiki/Oran" target="_blank">
+          <button type="button">KNOW MORE</button>
+        </a>
       </div>
       <div className="img_bx">
         <img src={Wahran} alt="Wahran" />
