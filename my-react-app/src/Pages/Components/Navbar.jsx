@@ -22,20 +22,15 @@ function Navbar() {
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
+            <Nav.Link as={Link} to="/attractions">
+              Attractions
+            </Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/Services/Hotels">
                 Hotels
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Services/Restaurents">
                 Restaurents
-              </NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Attraction" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/attraction/monuments">
-                Monuments
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/attraction/malls">
-                Malls
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/login" className="btn-login">

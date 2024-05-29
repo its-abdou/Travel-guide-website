@@ -4,7 +4,7 @@ import HMelissa from "../../../assets/Hotels/HMelissa.jpeg";
 
 const HotelsComponent = () => {
   return (
-    <div className="Container">
+    <div className="container">
       <Helmet>
         <link
           rel="stylesheet"

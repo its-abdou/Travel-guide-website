@@ -1,7 +1,7 @@
 import HotelsComponent from "./HotelsComponent.jsx";
 function HotelPage() {
   return (
-    <div className="Container">
+    <div>
       <HotelsComponent></HotelsComponent>
     </div>
   );

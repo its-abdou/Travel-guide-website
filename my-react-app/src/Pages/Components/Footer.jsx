@@ -60,6 +60,11 @@ export default function Footer() {
                 </Link>
               </p>
               <p>
+                <Link to="/attractions" className="text-reset">
+                  Attractions
+                </Link>
+              </p>
+              <p>
                 <Link to="/login" className="text-reset">
                   Login
                 </Link>
@@ -76,20 +81,6 @@ export default function Footer() {
               <p>
                 <Link to="/Services/Restaurents" className="text-reset">
                   Restaurants
-                </Link>
-              </p>
-            </MDBCol>
-
-            <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Attraction</h6>
-              <p>
-                <Link to="/attraction/monuments" className="text-reset">
-                  Monuments
-                </Link>
-              </p>
-              <p>
-                <Link to="/attraction/malls" className="text-reset">
-                  Malls
                 </Link>
               </p>
             </MDBCol>
