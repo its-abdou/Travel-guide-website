@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import "./HotelsComponent.css";
+import "./RestaurentsComponent.css";
 
-const HotelsComponent = () => {
+const RestaurentsComponent = () => {
   const [hotels, setHotels] = useState([]);
   const [filteredHotels, setFilteredHotels] = useState([]);
   const [starRatingFilter, setStarRatingFilter] = useState(0);
 
   useEffect(() => {
-    fetch("http://localhost:3001/hotels")
+    fetch("http://localhost:3001/restaurents")
       .then((response) => response.json())
       .then((data) => {
         setHotels(data);
@@ -170,4 +170,4 @@ const HotelsComponent = () => {
   );
 };
 
-export default HotelsComponent;
+export default RestaurentsComponent;
