@@ -45,8 +45,7 @@ const RestaurentsComponent = () => {
       <div className="list-container">
         <div className="left-col">
           <p>10+ Options</p>
-          <h1>Book Your Hotel Now!</h1>
-
+          <h1>Chose Your Restaurent and Enjoy Your Meal!</h1>
           {filteredHotels.map((hotel) => (
             <div className="hotel" key={hotel.id}>
               <div className="hotel-img">
@@ -76,11 +75,11 @@ const RestaurentsComponent = () => {
                 </div>
                 <div className="description-and-price">
                   <p>{hotel.description}</p>
-                  <div className="hotel-price">
+                  {/* <div className="hotel-price">
                     <p>Price from</p>
                     <h3>{hotel.price}</h3>
                     <p>per night</p>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="see-availability-button">
                   <a
@@ -88,7 +87,7 @@ const RestaurentsComponent = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Check availability
+                    Show on map
                   </a>
                 </div>
               </div>
@@ -101,7 +100,7 @@ const RestaurentsComponent = () => {
               <i className="fa-solid fa-map-location-dot map-icon"></i>
               <br />
               <a
-                href="https://www.booking.com/searchresults.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&aid=304142&city=-480007&map=1&atlas_src=lp_map#map_opened"
+                href="https://www.google.com/maps/search/restaurant+oran/@35.6827502,-0.959457,11z/data=!3m1!4b1?entry=ttu"
                 target="_blank"
                 className="map-button"
                 rel="noopener noreferrer"
