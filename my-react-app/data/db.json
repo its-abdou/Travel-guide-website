@@ -1,0 +1,69 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Melissa Hotel",
+      "image": "../src/assets/Hotels/HMelissa.jpeg",
+      "stars": 4,
+      "distance": "1.6 km from centre",
+      "mapLink": "https://maps.app.goo.gl/PucCnhythFxiAW7F8",
+      "description": "Located in Oran, 5.9 km from Oran Santa Cruz fortress, Melissa Hotel offers accommodation with a spa and wellness centre and free private parking.",
+      "price": "17,600 DZD",
+      "bookingLink": "https://www.booking.com/hotel/dz/melissa.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&aid=304142"
+    },
+    {
+      "id": 2,
+      "name": "Four Points",
+      "image": "../src/assets/Hotels/HFourPoints.jpeg",
+      "stars": 4,
+      "distance": "4 km from centre",
+      "mapLink": "https://www.booking.com/hotel/dz/four-points-by-sherton-oran.en-gb.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&all_sr_blocks=147252009_87476807_0_42_0;checkin=2024-06-01;checkout=2024-06-15;dest_id=-480007;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=3;highlighted_blocks=147252009_87476807_0_42_0;hpos=3;map=1;matching_block_id=147252009_87476807_0_42_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=147252009_87476807_0_42_0__26080000;srepoch=1716767942;srpvid=b80ba87dab900226;type=total;ucfs=1&#map_opened-auto_open",
+      "description": "Four Points by Sheraton Oran features a fitness centre, shared lounge, a terrace and restaurant in Oran. Providing a bar, the property is located within 10 km of Oran Santa Cruz fortress.",
+      "price": "18,700 DZD",
+      "bookingLink": "https://www.booking.com/hotel/dz/four-points-by-sherton-oran.en-gb.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&all_sr_blocks=147252009_87476807_0_42_0;checkin=2024-06-01;checkout=2024-06-15;dest_id=-480007;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=147252009_87476807_0_42_0;hpos=1;matching_block_id=147252009_87476807_0_42_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=147252009_87476807_0_42_0__26080000;srepoch=1716768024;srpvid=68050009f264003a;type=total;ucfs=1&#hotelTmpl"
+    },
+    {
+      "id": 3,
+      "name": "ibis Oran les Falaises",
+      "image": "../src/assets/Hotels/HIbibs.jpeg",
+      "stars": 3,
+      "distance": "3.6 km from centre",
+      "mapLink": "https://www.booking.com/hotel/dz/ibis-oran-les-falaises.en-gb.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&all_sr_blocks=33311004_151810313_2_42_0;checkin=2024-06-01;checkout=2024-06-15;dest_id=-480007;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=33311004_151810313_2_42_0;hpos=1;map=1;matching_block_id=33311004_151810313_2_42_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=33311004_151810313_2_42_0__12600000;srepoch=1716968282;srpvid=982d356188b300de;type=total;ucfs=1&#map_opened-auto_open",
+      "description": "Located a 15-minute drive from Oran Es Sénia Airport, this Ibis hotel overlooks The Gulf of Oran and offers air-conditioned rooms with free Wi-Fi.",
+      "price": "9,000 DZD",
+      "bookingLink": "https://www.booking.com/hotel/dz/ibis-oran-les-falaises.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&aid=304142"
+    },
+    {
+      "id": 4,
+      "name": "Le Meridien Oran Hotel",
+      "image": "../src/assets/Hotels/HleMeridien.jpeg",
+      "stars": 5,
+      "distance": "5,9 km from centre",
+      "mapLink": "https://www.booking.com/hotel/dz/le-meridien-oran.en-gb.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&all_sr_blocks=40098910_246431140_0_42_0;checkin=2024-06-01;checkout=2024-06-15;dest_id=-480007;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=9;highlighted_blocks=40098910_246431140_0_42_0;hpos=9;map=1;matching_block_id=40098910_246431140_0_42_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=40098910_246431140_0_42_0__30900000;srepoch=1716968873;srpvid=982d356188b300de;type=total;ucfs=1&#map_opened-auto_open",
+      "description": "Located in the city of Oran, Le Méridien is situated right on the Mediterranean coast. It features an outdoor swimming pool, a spa and a fitness centre with views of the sea.",
+      "price": "18,700 DZD",
+      "bookingLink": "https://www.booking.com/hotel/dz/le-meridien-oran.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&aid=304142"
+    },
+    {
+      "id": 5,
+      "name": "2H Hotel",
+      "image": "../src/assets/Hotels/H2H.jpeg",
+      "stars": 5,
+      "distance": "1,7 km from centre",
+      "mapLink": "https://www.booking.com/hotel/dz/2h.en-gb.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&all_sr_blocks=1163147601_392157274_2_1_0;checkin=2024-06-01;checkout=2024-06-15;dest_id=-480007;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=8;highlighted_blocks=1163147601_392157274_2_1_0;hpos=8;map=1;matching_block_id=1163147601_392157274_2_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=1163147601_392157274_2_1_0__29260000;srepoch=1716968451;srpvid=982d356188b300de;type=total;ucfs=1&#map_opened-auto_open",
+      "description": "Set in Oran, 6 km from Oran Santa Cruz fortress, 2H Hotel offers accommodation with a terrace, free private parking and a restaurant. This 5-star hotel offers a concierge service.",
+      "price": "20,900 DZD",
+      "bookingLink": "https://www.booking.com/hotel/dz/2h.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&aid=304142"
+    }
+  ],
+  "restaurents": [
+    {
+      "id": 1,
+      "name": "Restaurant Cintra",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-o/06/89/00/3b/restaurant-cintra.jpg",
+      "stars": 3.5,
+      "speciality": "Européenne, Brasserie gastronomique",
+      "mapLink": "https://maps.app.goo.gl/PucCnhythFxiAW7F8"
+    }
+  ]
+}

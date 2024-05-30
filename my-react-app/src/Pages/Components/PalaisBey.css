@@ -1,0 +1,10 @@
+.Carous {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(80px);
+}
+.Carou {
+  width: 450px;
+  margin: 20px;
+}

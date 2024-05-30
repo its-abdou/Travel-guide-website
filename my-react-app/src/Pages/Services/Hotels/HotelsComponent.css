@@ -1,0 +1,295 @@
+/* ------ Hotels List ------ */
+.Container {
+  padding: 0 2%;
+}
+
+.list-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left-col {
+  flex-basis: 70%;
+}
+
+.right-col {
+  flex-basis: 25%;
+}
+
+/* ------ Left Column ------ */
+.left-col h1 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.hotel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 0;
+  border-top: 1px solid black;
+}
+
+.hotel-img {
+  flex-basis: 30%;
+}
+
+.hotel-img img {
+  width: 100%;
+  min-width: 279px;
+  max-width: 279px;
+  border-radius: 12px;
+}
+
+.hotel-info {
+  flex-basis: 68%;
+  color: #555;
+}
+
+.hotel-info-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.hotel-info h3 {
+  font-weight: 600;
+  color: color(display-p3 0.1765 0.4157 0.8627);
+  font-size: 22px;
+  margin: 4px 0;
+}
+
+.hotel-info-location {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.description-and-price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.description-and-price p {
+  flex-basis: 70%;
+}
+
+.hotel-price {
+  flex-basis: 28%;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.see-availability-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.see-availability-button a {
+  text-decoration: none;
+  background-color: color(display-p3 0.1765 0.4157 0.8627);
+  border-radius: 4px;
+  color: white;
+  padding: 4px 12px;
+}
+
+.hotel-info p {
+  color: #333;
+  margin: 4px 0;
+}
+
+.icon {
+  color: #ef8300;
+  font-size: 15px;
+  margin: 5px 1px;
+}
+
+.hotel-price h3 {
+  font-size: 20px;
+  color: green;
+}
+
+/* ------ Right Column ------ */
+.sidebar {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+
+.sidebar h2 {
+  font-weight: 500;
+  border-bottom: 1px solid rgb(228, 218, 218);
+  padding-bottom: 10px;
+}
+
+.sidebar h3 {
+  font-weight: 500;
+  margin: 10px 0 10px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.filter label {
+  margin: 5px 0;
+}
+
+.filter input {
+  margin-right: 15px;
+}
+
+/* ------ Map ------ */
+.map {
+  background-image: url(../../../assets/Hotels/map.png);
+  background-size: cover;
+  background-position: center;
+  height: 151px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-button {
+  background-color: color(display-p3 0.1765 0.4157 0.8627);
+  border-color: color(display-p3 0.1765 0.4157 0.8627);
+  border-radius: 4px;
+  color: white;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.map-icon {
+  color: color(display-p3 0.1765 0.4157 0.8627);
+  font-size: 30px;
+}
+
+.my-button:hover {
+  background-color: darkblue;
+}
+
+/* ------ Responsive Design ------ */
+@media only screen and (max-width: 1370px) {
+  .list-container {
+    justify-content: center;
+  }
+
+  .right-col {
+    flex-basis: 25%;
+    justify-content: center;
+  }
+
+  .left-col {
+    flex-basis: auto;
+  }
+
+  .hotel {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .hotel-img {
+    flex-basis: auto;
+    justify-self: flex-end;
+  }
+
+  .description-and-price {
+    justify-content: space-between;
+  }
+
+  .hotel-price {
+    flex-basis: 20%;
+  }
+}
+
+@media only screen and (max-width: 973px) {
+  .hotel,
+  .hotel-info-head,
+  .hotel-info-location,
+  .see-availability-button,
+  .hotel-info {
+    justify-content: center;
+    flex-basis: auto;
+  }
+
+  .description-and-price {
+    flex-basis: 83%;
+  }
+
+  .hotel-price {
+    flex-basis: 15%;
+  }
+
+  .description-and-price p {
+    flex-basis: 84%;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .list-container {
+    justify-content: center;
+  }
+
+  .left-col {
+    flex-basis: 100%;
+  }
+
+  .right-col {
+    flex-basis: 60%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .hotel-price,
+  .description-and-price p {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .right-col {
+    flex-basis: 85%;
+    justify-content: center;
+  }
+
+  .left-col h1 {
+    font-size: 22px;
+  }
+
+  .hotel-info h3 {
+    font-size: 18px;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .right-col {
+    flex-basis: 90%;
+  }
+}

@@ -1,0 +1,52 @@
+.history {
+  width: 45%;
+  height: auto;
+  /* border: 1px solid hsla(0, 0%, 0%); */
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.history .his_box,
+.img_bx {
+  position: relative;
+  width: 50%;
+  height: auto;
+  /* border: 1px solid hsl(0, 0%, 0%); */
+}
+.history .his_box h4 {
+  margin: 0;
+  font-size: 20px;
+  color: hsl(0, 0%, 0%);
+  line-height: 10px;
+  letter-spacing: 1px;
+}
+.history .his_box p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.history .his_box button {
+  margin-top: 10px;
+  font-size: 12px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 0%);
+  transition: 0.3s linear;
+}
+.history .his_box button:hover {
+  background-color: hsl(0, 0%, 25%);
+  border: 2px solid hsl(0, 0%, 25%);
+}
+
+.history .img_bx img {
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 5px 1px 20px hsl(0, 0%, 50%);
+}
