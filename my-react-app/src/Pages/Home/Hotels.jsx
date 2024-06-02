@@ -20,7 +20,7 @@ function Hotels() {
             </h4>
           </div>
           <div className="cont_bx">
-            <div className="price">
+            <div className="price-h">
               <div className="heart_chat">
                 <i className="bi bi-heart-fill">
                   <span>86415</span>
@@ -54,7 +54,7 @@ function Hotels() {
             </h4>
           </div>
           <div className="cont_bx">
-            <div className="price">
+            <div className="price-h">
               <div className="heart_chat">
                 <i className="bi bi-heart-fill">
                   <span>86415</span>
@@ -88,7 +88,7 @@ function Hotels() {
             </h4>
           </div>
           <div className="cont_bx">
-            <div className="price">
+            <div className="price-h">
               <div className="heart_chat">
                 <i className="bi bi-heart-fill">
                   <span>86415</span>
@@ -122,7 +122,7 @@ function Hotels() {
             </h4>
           </div>
           <div className="cont_bx">
-            <div className="price">
+            <div className="price-h">
               <div className="heart_chat">
                 <i className="bi bi-heart-fill">
                   <span>86415</span>
