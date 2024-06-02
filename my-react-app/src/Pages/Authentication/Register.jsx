@@ -28,11 +28,11 @@ function Register({ setAuth }) {
         { withCredentials: true }
       );
 
-      if (response.data === "Registration successful") {
+      if (response.data.message === "Registration successful") {
         setAuth(true);
-        navigate("/");
+        navigate("/profile"); // Directly navigate to profile after successful registration
       } else {
-        setError(response.data);
+        setError(response.data.error);
       }
     } catch (error) {
       setError("Error registering. Please try again.");

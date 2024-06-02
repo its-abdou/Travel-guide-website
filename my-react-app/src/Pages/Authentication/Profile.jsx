@@ -14,7 +14,11 @@ const Profile = ({ setAuth }) => {
           "http://localhost/backend/profile.php",
           { withCredentials: true }
         );
-        setUserInfo(response.data);
+        if (response.data) {
+          setUserInfo(response.data);
+        } else {
+          setError("Failed to fetch user data.");
+        }
       } catch (error) {
         setError(error.message);
         console.error("Error fetching user info", error);
@@ -47,8 +51,12 @@ const Profile = ({ setAuth }) => {
   return (
     <div>
       <h1>Profile</h1>
-      <p>Username: {userInfo.username}</p>
-      <p>Email: {userInfo.email}</p>
+      {userInfo && (
+        <>
+          <p>Username: {userInfo.username}</p>
+          <p>Email: {userInfo.email}</p>
+        </>
+      )}
       <button onClick={handleLogout}>Logout</button>
     </div>
   );
