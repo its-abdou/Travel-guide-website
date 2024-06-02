@@ -3,24 +3,26 @@ import { Helmet } from "react-helmet";
 import "./RestaurentsComponent.css";
 
 const RestaurentsComponent = () => {
-  const [hotels, setHotels] = useState([]);
-  const [filteredHotels, setFilteredHotels] = useState([]);
+  const [restaurents, setrestaurents] = useState([]);
+  const [filteredrestaurents, setFilteredrestaurents] = useState([]);
   const [starRatingFilter, setStarRatingFilter] = useState(0);
 
   useEffect(() => {
     fetch("http://localhost:3001/restaurents")
       .then((response) => response.json())
       .then((data) => {
-        setHotels(data);
-        setFilteredHotels(data);
+        setrestaurents(data);
+        setFilteredrestaurents(data);
       })
-      .catch((error) => console.error("Error fetching hotels:", error));
+      .catch((error) => console.error("Error fetching restaurents:", error));
   }, []);
 
   useEffect(() => {
-    const filtered = hotels.filter((hotel) => hotel.stars >= starRatingFilter);
-    setFilteredHotels(filtered);
-  }, [starRatingFilter, hotels]);
+    const filtered = restaurents.filter(
+      (restaurent) => restaurent.stars >= starRatingFilter
+    );
+    setFilteredrestaurents(filtered);
+  }, [starRatingFilter, restaurents]);
 
   const handleStarRatingChange = (event) => {
     const { value, checked } = event.target;
@@ -46,44 +48,46 @@ const RestaurentsComponent = () => {
         <div className="left-col">
           <p>10+ Options</p>
           <h1>Chose Your Restaurent and Enjoy Your Meal!</h1>
-          {filteredHotels.map((hotel) => (
-            <div className="hotel" key={hotel.id}>
-              <div className="hotel-img">
-                <img src={hotel.image} alt={hotel.name} />
+          {filteredrestaurents.map((restaurent) => (
+            <div className="restaurent" key={restaurent.id}>
+              <div className="restaurent-img">
+                <img src={restaurent.image} alt={restaurent.name} />
               </div>
-              <div className="hotel-info">
-                <div className="hotel-info-head">
-                  <h3>{hotel.name}</h3>
-                  <div className="hotel-stars">
-                    {[...Array(Math.floor(hotel.stars))].map((_, index) => (
-                      <i key={index} className="fa-solid fa-star icon"></i>
-                    ))}
-                    {hotel.stars % 1 !== 0 && (
+              <div className="restaurent-info">
+                <div className="restaurent-info-head">
+                  <h3>{restaurent.name}</h3>
+                  <div className="restaurent-stars">
+                    {[...Array(Math.floor(restaurent.stars))].map(
+                      (_, index) => (
+                        <i key={index} className="fa-solid fa-star icon"></i>
+                      )
+                    )}
+                    {restaurent.stars % 1 !== 0 && (
                       <i className="fa-solid fa-star-half-stroke icon"></i>
                     )}
                   </div>
                 </div>
-                <div className="hotel-info-location">
-                  <p>{hotel.distance}</p>
-                  <a
-                    href={hotel.mapLink}
+                <div className="restaurent-info-location">
+                  {/* <p>{restaurent.distance}</p> */}
+                  {/* <a
+                    href={restaurent.mapLink}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     show on map
-                  </a>
+                  </a> */}
                 </div>
                 <div className="description-and-price">
-                  <p>{hotel.description}</p>
-                  {/* <div className="hotel-price">
+                  <p>{restaurent.speciality}</p>
+                  {/* <div className="restaurent-price">
                     <p>Price from</p>
-                    <h3>{hotel.price}</h3>
+                    <h3>{restaurent.price}</h3>
                     <p>per night</p>
                   </div> */}
                 </div>
                 <div className="see-availability-button">
                   <a
-                    href={hotel.bookingLink}
+                    href={restaurent.mapLink}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -105,7 +109,7 @@ const RestaurentsComponent = () => {
                 className="map-button"
                 rel="noopener noreferrer"
               >
-                Show hotels on map
+                Show restaurents on map
               </a>
             </div>
           </div>

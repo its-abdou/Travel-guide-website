@@ -1,0 +1,39 @@
+.map {
+  background-image: url(../../../assets/Hotels/map.png);
+  background-size: cover;
+  background-position: center;
+  height: 151px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-button {
+  background-color: color(display-p3 0.1765 0.4157 0.8627);
+  border-color: color(display-p3 0.1765 0.4157 0.8627);
+  border-radius: 4px;
+  color: white;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.map-icon {
+  color: color(display-p3 0.1765 0.4157 0.8627);
+  font-size: 30px;
+}
+
+.my-button:hover {
+  background-color: darkblue;
+}

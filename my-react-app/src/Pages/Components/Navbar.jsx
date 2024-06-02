@@ -5,8 +5,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import PropTypes from "prop-types";
 
-function Navbar() {
+function Navbar({ isAuthenticated }) {
   return (
     <NavbarBootstrap expand="lg" className="bg-body-tertiary">
       <Container className="cont">
@@ -33,14 +34,26 @@ function Navbar() {
                 Restaurents
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/login" className="btn-login">
-              Login
-            </Nav.Link>
+            {isAuthenticated ? (
+              <>
+                <Nav.Link as={Link} to="/profile">
+                  <i className="bi bi-person-fill"></i>
+                </Nav.Link>
+              </>
+            ) : (
+              <Nav.Link as={Link} to="/login" className="btn-login">
+                Login
+              </Nav.Link>
+            )}
           </Nav>
         </NavbarBootstrap.Collapse>
       </Container>
     </NavbarBootstrap>
   );
 }
+Navbar.propTypes = {
+  isAuthenticated: PropTypes.bool.isRequired,
+  setAuth: PropTypes.func.isRequired,
+};
 
 export default Navbar;

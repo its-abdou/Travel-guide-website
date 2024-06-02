@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
+import FilterAside from "../../Components/FilterAside"; // Import the new filter component
 import "./HotelsComponent.css";
 
 const HotelsComponent = () => {
   const [hotels, setHotels] = useState([]);
   const [filteredHotels, setFilteredHotels] = useState([]);
-  const [starRatingFilter, setStarRatingFilter] = useState(0);
+  const [selectedStars, setSelectedStars] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3001/hotels")
@@ -18,18 +19,15 @@ const HotelsComponent = () => {
   }, []);
 
   useEffect(() => {
-    const filtered = hotels.filter((hotel) => hotel.stars >= starRatingFilter);
-    setFilteredHotels(filtered);
-  }, [starRatingFilter, hotels]);
-
-  const handleStarRatingChange = (event) => {
-    const { value, checked } = event.target;
-    if (checked) {
-      setStarRatingFilter(parseInt(value));
+    if (selectedStars.length === 0) {
+      setFilteredHotels(hotels);
     } else {
-      setStarRatingFilter(0); // Reset the filter if unchecked
+      const filtered = hotels.filter((hotel) =>
+        selectedStars.includes(hotel.stars)
+      );
+      setFilteredHotels(filtered);
     }
-  };
+  }, [selectedStars, hotels]);
 
   return (
     <div className="Container">
@@ -110,60 +108,11 @@ const HotelsComponent = () => {
               </a>
             </div>
           </div>
-          <div className="sidebar">
-            <h2>Filter by:</h2>
-            <h3>Star rating</h3>
-            <div className="filter">
-              <input
-                type="checkbox"
-                name="starRating"
-                id="5"
-                value="5"
-                onChange={handleStarRatingChange}
-              />
-              <label htmlFor="5">5 stars</label>
-            </div>
-            <div className="filter">
-              <input
-                type="checkbox"
-                name="starRating"
-                id="4"
-                value="4"
-                onChange={handleStarRatingChange}
-              />
-              <label htmlFor="4">4 stars</label>
-            </div>
-            <div className="filter">
-              <input
-                type="checkbox"
-                name="starRating"
-                id="3"
-                value="3"
-                onChange={handleStarRatingChange}
-              />
-              <label htmlFor="3">3 stars</label>
-            </div>
-            <div className="filter">
-              <input
-                type="checkbox"
-                name="starRating"
-                id="2"
-                value="2"
-                onChange={handleStarRatingChange}
-              />
-              <label htmlFor="2">2 stars</label>
-            </div>
-            <div className="filter">
-              <input
-                type="checkbox"
-                name="starRating"
-                id="1"
-                value="1"
-                onChange={handleStarRatingChange}
-              />
-              <label htmlFor="1">1 star</label>
-            </div>
-          </div>
+
+          <FilterAside
+            selectedStars={selectedStars}
+            setSelectedStars={setSelectedStars}
+          />
         </div>
       </div>
     </div>

@@ -82,36 +82,36 @@
   padding: 5px 0px;
   border-radius: 0px 0px 5px 5px;
 }
-.hotels .cards .card .cont_bx .price {
+.hotels .cards .card .cont_bx .price-h {
   margin: 0px 5px;
 }
-.hotels .cards .card .cont_bx .price .heart_chat {
+.hotels .cards .card .cont_bx .price-h .heart_chat {
   display: flex;
   align-items: center;
 }
-.hotels .cards .card .cont_bx .price .heart_chat i:first-child {
+.hotels .cards .card .cont_bx .price-h .heart_chat i:first-child {
   color: hsl(0, 100%, 50%);
   font-size: 13px;
   margin-right: 10px;
 }
-.hotels .cards .card .cont_bx .price .heart_chat i span {
+.hotels .cards .card .cont_bx .price-h .heart_chat i span {
   color: hsl(0, 0%, 0%);
   font-size: 12px;
   margin-left: 3px;
   font-style: normal;
 }
 
-.hotels .cards .card .cont_bx .price .heart_chat i:last-child {
+.hotels .cards .card .cont_bx .price-h .heart_chat i:last-child {
   color: hsl(197, 69%, 67%);
   font-size: 13px;
   margin-right: 11px;
 }
-.hotels .cards .card .cont_bx .price .info_price {
+.hotels .cards .card .cont_bx .price-h .info_price {
   display: flex;
   align-items: center;
   margin-top: 3px;
 }
-.hotels .cards .card .cont_bx .price .info_price a {
+.hotels .cards .card .cont_bx .price-h .info_price a {
   text-decoration: none;
   color: hsl(0, 0%, 0%);
   font-size: 11px;
@@ -119,10 +119,10 @@
   transition: 0.3s linear;
   margin-right: 10px;
 }
-.hotels .cards .card .cont_bx .price .info_price a:hover {
+.hotels .cards .card .cont_bx .price-h .info_price a:hover {
   color: hsl(0, 0%, 50%);
 }
-.hotels .cards .card .cont_bx .price .info_price h4 {
+.hotels .cards .card .cont_bx .price-h .info_price h4 {
   margin: 0px;
   font-size: 12px;
 }

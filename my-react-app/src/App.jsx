@@ -1,24 +1,64 @@
-import Navbar from "./Pages/Components/Navbar.jsx";
+import { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home.jsx";
-import Header from "./Pages/Home/Header.jsx";
 import HotelPage from "./Pages/Services/Hotels/HotelPage.jsx";
 import RestaurantsList from "./Pages/Services/Restaurents/RestaurantsList.jsx";
 import AttractionsPage from "./Pages/Attraction/AttractionsPage.jsx";
-import Loginpage from "./Pages/Login/Loginpage.jsx";
+import Navbar from "./Pages/Components/Navbar.jsx";
+import Log from "./Pages/Authentication/Log.jsx";
+import Register from "./Pages/Authentication/Register.jsx";
+import Profile from "./Pages/Authentication/Profile.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Routes, Route } from "react-router-dom";
+import axios from "axios";
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const setAuth = (value) => {
+    setIsAuthenticated(value);
+  };
+
+  useEffect(() => {
+    // Check if the user is already authenticated (e.g., from a session or token)
+    const checkAuth = async () => {
+      try {
+        const response = await axios.get(
+          "http://localhost/backend/profile.php",
+          {
+            withCredentials: true,
+          }
+        );
+        if (response.data.username) {
+          setIsAuthenticated(true);
+        }
+      } catch (error) {
+        setIsAuthenticated(false);
+      }
+    };
+
+    checkAuth();
+  }, []);
+
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar isAuthenticated={isAuthenticated} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route exact path="/" component={<Header />} />
         <Route path="/Services/Hotels" element={<HotelPage />} />
         <Route path="/Services/Restaurents" element={<RestaurantsList />} />
         <Route path="/attractions" element={<AttractionsPage />} />
-        <Route path="/Login" element={<Loginpage />} />
+        <Route path="/login" element={<Log setAuth={setAuth} />} />
+        <Route path="/register" element={<Register setAuth={setAuth} />} />
+        <Route
+          path="/profile"
+          element={
+            isAuthenticated ? (
+              <Profile setAuth={setAuth} />
+            ) : (
+              <Log setAuth={setAuth} />
+            )
+          }
+        />
       </Routes>
     </>
   );

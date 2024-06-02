@@ -56,26 +56,342 @@
       "bookingLink": "https://www.booking.com/hotel/dz/2h.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&aid=304142"
     }
   ],
-  "restaurents": [
+
+  "restaurants": [
     {
       "id": 1,
-      "name": "Restaurant Cintra",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-o/06/89/00/3b/restaurant-cintra.jpg",
-      "stars": 3.5,
-      "distance": "Européenne, Brasserie gastronomique",
-      "mapLink": "https://maps.app.goo.gl/PucCnhythFxiAW7F8",
-      "description": "Très bel endroit ou passé un moment agréable en famille ou entre amis. Personnel adorable et très serviable. ",
-      "bookingLink": "https://www.booking.com/hotel/dz/melissa.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&aid=304142"
+      "name": "Le Méditerranée",
+      "cuisine": "Seafood",
+      "address": "12 Rue de la Liberté, Oran",
+      "phone": "+213 41 39 67 89",
+      "rating": 4.5,
+      "pricing": "$",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/f7/af/1c/le-ciel-d-oran.jpg?w=600&h=-1&s=1",
+      "facebook": "https://facebook.com/lemediterranee",
+      "description": "A renowned seafood restaurant offering fresh catches of the day in a charming, nautical-themed setting."
     },
     {
+      "id": 2,
+      "name": "Le Ciel d'Oran",
+      "cuisine": "French",
+      "address": "24 Boulevard de l'Indépendance, Oran",
+      "phone": "+213 41 29 45 67",
+      "rating": 4.7,
+      "link": "tel: +213540243699",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/f7/af/1c/le-ciel-d-oran.jpg?w=600&h=-1&s=1",
+      "facebook": "https://facebook.com/lecieledoran",
+      "description": "An elegant French restaurant with a panoramic view of the city, offering a sophisticated dining experience."
+    },
+    {
+      "id": 3,
+      "name": "El Bey",
+      "cuisine": "Algerian",
+      "address": "45 Rue de l'Émir Abdelkader, Oran",
+      "phone": "+213 41 31 23 45",
+      "rating": 4.6,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/f7/af/1c/le-ciel-d-oran.jpg?w=600&h=-1&s=1",
+      "facebook": "https://facebook.com/elbeyrestaurant",
+      "description": "A popular spot for traditional Algerian cuisine, known for its authentic flavors and warm hospitality."
+    },
+    {
+      "id": 4,
+      "name": "Auberge du Marabout",
+      "cuisine": "Mediterranean",
+      "address": "78 Avenue de la République, Oran",
+      "phone": "+213 41 27 56 78",
+      "rating": 4.8,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/f7/af/1c/le-ciel-d-oran.jpg?w=600&h=-1&s=1",
+      "facebook": "https://facebook.com/aubergedumarabout",
+      "description": "A delightful Mediterranean restaurant offering a variety of fresh and flavorful dishes in a cozy atmosphere."
+    },
+    {
+      "id": 5,
+      "name": "Pacha",
+      "cuisine": "Turkish",
+      "address": "15 Rue de Tlemcen, Oran",
+      "phone": "+213 41 36 47 58",
+      "rating": 4.4,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/f7/af/1c/le-ciel-d-oran.jpg?w=600&h=-1&s=1",
+      "facebook": "https://facebook.com/pacharestaurant",
+      "description": "A vibrant Turkish restaurant known for its delicious kebabs and traditional Turkish hospitality."
+    },
+    {
+      "id": 6,
+      "name": "La Comédie",
+      "cuisine": "International",
+      "address": "102 Rue Khemisti, Oran",
+      "phone": "+213 41 32 98 76",
+      "rating": 4.5,
+      "image": "https://example.com/lacomedie.jpg",
+      "facebook": "https://facebook.com/lacomediereastaurant",
+      "description": "An international restaurant offering a diverse menu with flavors from around the world in a lively setting."
+    },
+    {
+      "id": 7,
+      "name": "Le Patio",
+      "cuisine": "Moroccan",
+      "address": "54 Rue Mohamed Boudiaf, Oran",
+      "phone": "+213 41 29 74 85",
+      "rating": 4.6,
+      "image": "https://example.com/lepatio.jpg",
+      "facebook": "https://facebook.com/lepatiooran",
+      "description": "A charming Moroccan restaurant featuring a beautiful patio area and an array of traditional dishes."
+    },
+    {
+      "id": 8,
+      "name": "L'Escargot",
+      "cuisine": "French",
+      "address": "9 Rue Larbi Ben M'hidi, Oran",
+      "phone": "+213 41 33 88 55",
+      "rating": 4.7,
+      "image": "https://example.com/lescargot.jpg",
+      "facebook": "https://facebook.com/lescargotoran",
+      "description": "A quaint French restaurant specializing in escargot and other classic French delicacies."
+    },
+    {
+      "id": 9,
+      "name": "La Cantine",
+      "cuisine": "Italian",
+      "address": "27 Rue de Mascara, Oran",
+      "phone": "+213 41 39 45 67",
+      "rating": 4.6,
+      "image": "https://example.com/lacantine.jpg",
+      "facebook": "https://facebook.com/lacantineoran",
+      "description": "A lively Italian eatery known for its delicious pizzas, pastas, and vibrant atmosphere."
+    },
+    {
+      "id": 10,
+      "name": "Restaurant Zitouna",
+      "cuisine": "Tunisian",
+      "address": "18 Rue Hassiba Ben Bouali, Oran",
+      "phone": "+213 41 31 76 54",
+      "rating": 4.5,
+      "image": "https://example.com/zitouna.jpg",
+      "facebook": "https://facebook.com/restaurantzitouna",
+      "description": "A cozy Tunisian restaurant offering a variety of flavorful dishes and traditional Tunisian hospitality."
+    },
+    {
+      "id": 11,
+      "name": "Le Dauphin",
+      "cuisine": "Seafood",
+      "address": "33 Avenue de l'ALN, Oran",
+      "phone": "+213 41 28 89 67",
+      "rating": 4.4,
+      "image": "https://example.com/ledauphin.jpg",
+      "facebook": "https://facebook.com/ledauphinrestaurant",
+      "description": "A popular seafood restaurant known for its fresh catches and relaxed, family-friendly atmosphere."
+    },
+    {
+      "id": 12,
+      "name": "La Voile d'Or",
+      "cuisine": "Mediterranean",
+      "address": "50 Rue des Frères Boulahdour, Oran",
+      "phone": "+213 41 29 67 89",
+      "rating": 4.7,
+      "image": "https://example.com/lavoiledor.jpg",
+      "facebook": "https://facebook.com/lavoiledor",
+      "description": "An upscale Mediterranean restaurant offering exquisite dishes and a stunning view of the sea."
+    },
+    {
+      "id": 13,
+      "name": "Casa del Gelato",
+      "cuisine": "Desserts",
+      "address": "62 Rue Ben M'hidi, Oran",
+      "phone": "+213 41 38 47 58",
+      "rating": 4.6,
+      "image": "https://example.com/casadgelato.jpg",
+      "facebook": "https://facebook.com/casadgelatooran",
+      "description": "A delightful dessert shop specializing in Italian gelato and other sweet treats."
+    },
+    {
+      "id": 14,
+      "name": "Chez Salim",
+      "cuisine": "Algerian",
+      "address": "13 Rue de la Paix, Oran",
+      "phone": "+213 41 37 98 76",
+      "rating": 4.5,
+      "image": "https://example.com/chezsalim.jpg",
+      "facebook": "https://facebook.com/chezsalimoran",
+      "description": "A beloved local spot serving traditional Algerian dishes with a focus on fresh, local ingredients."
+    },
+    {
+      "id": 15,
+      "name": "Dar El Aaz",
+      "cuisine": "Moroccan",
+      "address": "45 Rue Didouche Mourad, Oran",
+      "phone": "+213 41 29 36 47",
+      "rating": 4.6,
+      "image": "https://example.com/darelaaz.jpg",
+      "facebook": "https://facebook.com/darelaaz",
+      "description": "A beautiful Moroccan restaurant known for its elegant decor and authentic Moroccan cuisine."
+    },
+    {
+      "id": 16,
+      "name": "Taj Mahal",
+      "cuisine": "Indian",
+      "address": "77 Rue du 1er Novembre, Oran",
+      "phone": "+213 41 36 89 45",
+      "rating": 4.7,
+      "image": "https://example.com/tajmahal.jpg",
+      "facebook": "https://facebook.com/tajmahaloran",
+      "description": "A vibrant Indian restaurant offering a wide range of flavorful dishes in a colorful, inviting setting."
+    },
+    {
+      "id": 17,
+      "name": "Le Cheval Blanc",
+      "cuisine": "French",
+      "address": "89 Boulevard Chefir Boumediene, Oran",
+      "phone": "+213 41 28 36 47",
+      "rating": 4.6,
+      "image": "https://example.com/lechevalblanc.jpg",
+      "facebook": "https://facebook.com/lechevalblanc",
+      "description": "A classic French bistro known for its refined dishes and charming, old-world ambiance."
+    },
+    {
+      "id": 18,
+      "name": "Café Riche",
+      "cuisine": "Café",
+      "address": "23 Rue de la Gare, Oran",
+      "phone": "+213 41 29 45 67",
+      "rating": 4.5,
+      "image": "https://example.com/caferiche.jpg",
+      "facebook": "https://facebook.com/cafericheoran",
+      "description": "A popular café offering a variety of coffees, pastries, and light meals in a relaxed setting."
+    },
+    {
+      "id": 19,
+      "name": "Le Régal",
+      "cuisine": "International",
+      "address": "35 Rue Hamdani Lahcen, Oran",
+      "phone": "+213 41 33 45 67",
+      "rating": 4.4,
+      "image": "https://example.com/leregal.jpg",
+      "facebook": "https://facebook.com/leregaloran",
+      "description": "An international restaurant offering a diverse menu and a comfortable dining experience."
+    },
+    {
+      "id": 20,
+      "name": "Pizzeria Vivaldi",
+      "cuisine": "Italian",
+      "address": "12 Rue Mozart, Oran",
+      "phone": "+213 41 34 56 78",
+      "rating": 4.5,
+      "image": "https://example.com/vivaldi.jpg",
+      "facebook": "https://facebook.com/pizzeriavivaldi",
+      "description": "A lively pizzeria known for its delicious pizzas, pastas, and friendly atmosphere."
+    },
+    {
+      "id": 21,
+      "name": "El Marsa",
+      "cuisine": "Seafood",
+      "address": "90 Avenue de la Résistance, Oran",
+      "phone": "+213 41 38 47 65",
+      "rating": 4.6,
+      "image": "https://example.com/elmarsa.jpg",
+      "facebook": "https://facebook.com/elmarsa",
+      "description": "A seaside restaurant offering a variety of fresh seafood dishes with a stunning view of the harbor."
+    },
+    {
+      "id": 22,
+      "name": "Le Savana",
+      "cuisine": "African",
+      "address": "21 Rue de Tripoli, Oran",
+      "phone": "+213 41 29 34 56",
+      "rating": 4.4,
+      "image": "https://example.com/savana.jpg",
+      "facebook": "https://facebook.com/lesavana",
+      "description": "An African restaurant known for its vibrant flavors and colorful, eclectic decor."
+    },
+    {
+      "id": 23,
+      "name": "L'Atlantide",
+      "cuisine": "Mediterranean",
+      "address": "58 Avenue de la Liberté, Oran",
+      "phone": "+213 41 39 87 65",
+      "rating": 4.7,
+      "image": "https://example.com/latlantide.jpg",
+      "facebook": "https://facebook.com/latlantide",
+      "description": "A sophisticated Mediterranean restaurant offering a wide range of dishes in an elegant setting."
+    },
+    {
+      "id": 24,
+      "name": "Le Sheraton",
+      "cuisine": "International",
+      "address": "Sheraton Hotel, Oran",
+      "phone": "+213 41 39 39 39",
+      "rating": 4.8,
+      "image": "https://example.com/lesheraton.jpg",
+      "facebook": "https://facebook.com/sheratonoran",
+      "description": "An upscale international restaurant located in the Sheraton Hotel, known for its excellent service and diverse menu."
+    },
+    {
+      "id": 25,
+      "name": "El Firdaous",
+      "cuisine": "Algerian",
+      "address": "25 Rue de la Liberté, Oran",
+      "phone": "+213 41 39 28 74",
+      "rating": 3,
+      "img": "https://example.com/elfirdaous.jpg",
+      "description": "Traditional Algerian dishes served in a beautiful setting."
+    },
+    {
+      "id": 26,
+      "name": "La Fregate",
+      "cuisine": "French",
+      "address": "38 Boulevard de la République, Oran",
+      "phone": "+213 41 27 38 45",
+      "rating": 3,
+      "img": "https://example.com/lafregate.jpg",
+      "description": "A French restaurant offering a variety of gourmet dishes."
+    },
+    {
+      "id": 27,
+      "name": "Favola",
+      "cuisine": "Italian",
+      "address": "49 Rue de Sidi Chami, Oran",
+      "phone": "+213 41 29 38 47",
+      "rating": 3,
+      "img": "https://example.com/favola.jpg",
+      "description": "Delicious Italian cuisine with a modern twist."
+    }
+  ],
+  "Other Services": [
+    {
       "id": 1,
-      "name": "Restaurant PRALIN Illusion",
+      "name": "Hospitals",
+      "description": " 7ot kach 3fssa kima see the hostpitals in oran or somthing",
       "image": "",
-      "stars": 4.5,
-      "distance": "Européenne, Brasserie gastronomique",
-      "mapLink": "https://maps.app.goo.gl/PucCnhythFxiAW7F8",
-      "description": "Très bel endroit ou passé un moment agréable en famille ou entre amis. Personnel adorable et très serviable. ",
-      "bookingLink": "https://www.booking.com/hotel/dz/melissa.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaECIAQGYAQm4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AvD9zLIGwAIB0gIkNDZiODA3ZWYtYmE5MS00NDY0LTkyZmQtY2E5OGJmYzgyMmU12AIG4AIB&sid=53ce9c26bba32cba8e171b25bb4a6828&aid=304142"
+      "mapLink": ""
+    }
+  ],
+  "Monuments": [
+    {
+      "id": 1,
+      "name": "",
+      "image": "",
+      "distance": "",
+      "mapLink": "",
+      "description": ""
+    }
+  ],
+  "Parcs": [
+    {
+      "id": 1,
+      "name": "",
+      "image": "",
+      "distance": "",
+      "mapLink": "",
+      "description": ""
+    }
+  ],
+  "Malls": [
+    {
+      "id": 1,
+      "name": "",
+      "image": "",
+      "distance": "",
+      "mapLink": "",
+      "description": ""
     }
   ]
 }
