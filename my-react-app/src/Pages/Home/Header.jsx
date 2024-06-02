@@ -27,7 +27,7 @@ function Header() {
               <div className="caption">
                 <h4>Oran's Monuments: Timeless Heritage</h4>
               </div>
-              <Link to="/attraction/monuments">
+              <Link to="/attractions">
                 <input type="button" value="Explore now" />
               </Link>
             </div>
