@@ -1,0 +1,30 @@
+.star-filter {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+
+.star-filter h2 {
+  font-weight: 500;
+  border-bottom: 1px solid rgb(228, 218, 218);
+  padding-bottom: 10px;
+}
+
+.star-filter h3 {
+  font-weight: 500;
+  margin: 10px 0 10px;
+}
+
+.star-filter-item {
+  display: flex;
+  align-items: center;
+}
+
+.star-filter-item label {
+  margin: 5px 0;
+}
+
+.star-filter-item input {
+  margin-right: 15px;
+}

@@ -1,6 +1,6 @@
 /* ------ restaurents List ------ */
-.Container {
-  padding: 0 2%;
+.restaurant-container {
+  padding: 20px;
 }
 
 .list-container {
@@ -10,7 +10,7 @@
   justify-content: space-between;
 }
 
-.left-col {
+Lists {
   flex-basis: 70%;
 }
 
@@ -19,103 +19,6 @@
 }
 
 /* ------ Left Column ------ */
-.left-col h1 {
-  color: #333;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-
-.restaurent {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 30px 0;
-  border-top: 1px solid black;
-}
-
-.restaurent-img {
-  flex-basis: 30%;
-}
-
-.restaurent-img img {
-  width: 100%;
-  min-width: 279px;
-  max-width: 279px;
-  border-radius: 12px;
-}
-
-.restaurent-info {
-  flex-basis: 68%;
-  color: #555;
-}
-
-.restaurent-info-head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 5px;
-}
-
-.restaurent-info h3 {
-  font-weight: 600;
-  color: color(display-p3 0.1765 0.4157 0.8627);
-  font-size: 22px;
-  margin: 4px 0;
-}
-
-.restaurent-info-location {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 5px;
-}
-
-.description-and-price {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 5px;
-}
-
-.description-and-price p {
-  flex-basis: 70%;
-}
-
-.restaurent-price {
-  flex-basis: 28%;
-  text-align: right;
-  margin-top: 10px;
-}
-
-.see-availability-button {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
-}
-
-.see-availability-button a {
-  text-decoration: none;
-  background-color: color(display-p3 0.1765 0.4157 0.8627);
-  border-radius: 4px;
-  color: white;
-  padding: 4px 12px;
-}
-
-.restaurent-info p {
-  color: #333;
-  margin: 4px 0;
-}
-
-.icon {
-  color: #ef8300;
-  font-size: 15px;
-  margin: 5px 1px;
-}
-
-.restaurent-price h3 {
-  font-size: 20px;
-  color: green;
-}
 
 /* ------ Right Column ------ */
 .sidebar {
