@@ -359,9 +359,72 @@
     {
       "id": 1,
       "name": "Hospitals",
-      "description": " 7ot kach 3fssa kima see the hostpitals in oran or somthing",
+      "description": " locations of healthcare facilities",
       "image": "",
-      "mapLink": ""
+      "mapLink": "https://www.google.com/maps/search/hôpital+oran+/@35.6915182,-0.688384,12.52z?authuser=0&entry=ttu"
+    },
+    {
+      "id": 2,
+      "name": "Pharmacies",
+      "description": " Locations and opening hours",
+      "image": "",
+      "mapLink": "https://www.google.com/maps/search/pharmacie/@35.6901132,-0.7110284,12.06z/data=!4m2!2m1!6e2?authuser=0&entry=ttu"
+    },
+    {
+      "id": 3,
+      "name": "Emergency Numbers",
+      "description": "Important contact numbers for police, fire, and medical emergencies.",
+      "image": "",
+      "mapLink": "https://algeria.embassy.qa/en/algeria/important-phones"
+    },
+    {
+      "id": 4,
+      "name": "ATMs and Banks",
+      "description": "Information on currency exchange and banking services.",
+      "image": "",
+      "mapLink": "https://www.google.com/maps/search/ATMs+and+Banks+in+oran/@35.6995501,-0.6460943,14.3z?entry=ttu"
+    },
+    {
+      "id": 5,
+      "name": "Buses",
+      "description": "Buses lines and stations in oran",
+      "image": "",
+      "mapLink": "https://guide-oran.com/lignes-de-bus-oran/"
+    },
+    {
+      "id": 6,
+      "name": "Tram",
+      "description": "Tram Oran Horaires & Ligne",
+      "image": "",
+      "mapLink": "https://servicesalgerie.com/fr/transport-public/tramway-oran"
+    },
+    {
+      "id": 7,
+      "name": "Car Rentals",
+      "description": " List rental agencies, car-sharing services, and locations",
+      "image": "",
+      "mapLink": "https://www.google.com/maps/search/Car+Rentals+in+oran/@35.6827502,-0.959457,11z/data=!3m1!4b1?entry=ttu"
+    },
+    {
+      "id": 8,
+      "name": "Parkings",
+      "description": " Details on parking facilities and costs.",
+      "image": "",
+      "mapLink": "https://www.viamichelin.fr/cartes-plans/parkings/algerie/oran/oran/oran-31001"
+    },
+    {
+      "id": 9,
+      "name": "Gas stations",
+      "description": "Gas stations location in oran",
+      "image": "",
+      "mapLink": "https://www.viamichelin.fr/?bounds=-0.719091%7E35.646111%7E-0.5461697%7E35.7696692&detailedView=false&itinerary=&page=1&poiCategories=8&rechargeTreshold=20&zoiSettings=false%7E20"
+    },
+    {
+      "id": 10,
+      "name": "Mosquee",
+      "description": "get the near mosquee to you",
+      "image": "",
+      "mapLink": "https://www.google.com/maps/search/les+mosquées+oran/@35.6827502,-0.959457,11z/data=!3m1!4b1?entry=ttu"
     }
   ],
   "Monuments": [
