@@ -359,19 +359,138 @@
     {
       "id": 1,
       "name": "Hospitals",
-      "description": " 7ot kach 3fssa kima see the hostpitals in oran or somthing",
+      "description": " locations of healthcare facilities",
       "image": "",
-      "mapLink": ""
+      "mapLink": "https://www.google.com/maps/search/hôpital+oran+/@35.6915182,-0.688384,12.52z?authuser=0&entry=ttu"
+    },
+    {
+      "id": 2,
+      "name": "Pharmacies",
+      "description": " Locations and opening hours",
+      "image": "",
+      "mapLink": "https://www.google.com/maps/search/pharmacie/@35.6901132,-0.7110284,12.06z/data=!4m2!2m1!6e2?authuser=0&entry=ttu"
+    },
+    {
+      "id": 3,
+      "name": "Emergency Numbers",
+      "description": "Important contact numbers for police, fire, and medical emergencies.",
+      "image": "",
+      "mapLink": "https://algeria.embassy.qa/en/algeria/important-phones"
+    },
+    {
+      "id": 4,
+      "name": "ATMs and Banks",
+      "description": "Information on currency exchange and banking services.",
+      "image": "",
+      "mapLink": "https://www.google.com/maps/search/ATMs+and+Banks+in+oran/@35.6995501,-0.6460943,14.3z?entry=ttu"
+    },
+    {
+      "id": 5,
+      "name": "Buses",
+      "description": "Buses lines and stations in oran",
+      "image": "",
+      "mapLink": "https://guide-oran.com/lignes-de-bus-oran/"
+    },
+    {
+      "id": 6,
+      "name": "Tram",
+      "description": "Tram Oran Horaires & Ligne",
+      "image": "",
+      "mapLink": "https://servicesalgerie.com/fr/transport-public/tramway-oran"
+    },
+    {
+      "id": 7,
+      "name": "Car Rentals",
+      "description": " List rental agencies, car-sharing services, and locations",
+      "image": "",
+      "mapLink": "https://www.google.com/maps/search/Car+Rentals+in+oran/@35.6827502,-0.959457,11z/data=!3m1!4b1?entry=ttu"
+    },
+    {
+      "id": 8,
+      "name": "Parkings",
+      "description": " Details on parking facilities and costs.",
+      "image": "",
+      "mapLink": "https://www.viamichelin.fr/cartes-plans/parkings/algerie/oran/oran/oran-31001"
+    },
+    {
+      "id": 9,
+      "name": "Gas stations",
+      "description": "Gas stations location in oran",
+      "image": "",
+      "mapLink": "https://www.viamichelin.fr/?bounds=-0.719091%7E35.646111%7E-0.5461697%7E35.7696692&detailedView=false&itinerary=&page=1&poiCategories=8&rechargeTreshold=20&zoiSettings=false%7E20"
+    },
+    {
+      "id": 10,
+      "name": "Mosquee",
+      "description": "get the near mosquee to you",
+      "image": "",
+      "mapLink": "https://www.google.com/maps/search/les+mosquées+oran/@35.6827502,-0.959457,11z/data=!3m1!4b1?entry=ttu"
     }
   ],
   "Monuments": [
     {
       "id": 1,
-      "name": "",
-      "image": "",
+      "name": "Santa Cruz",
+      "image": "https://www.oran-dz.com/pics/tourisme/que-visiter/chapelle-santa-cruz-vue-ville-oran.jpg",
       "distance": "",
-      "mapLink": "",
-      "description": ""
+      "mapLink": "https://www.google.com/maps?ll=35.709749,-0.663577&z=17&t=m&hl=fr-FR&gl=US&mapclient=apiv3&cid=6883634704426089416",
+      "description": "The chapel of \"Our Lady of Santa Cruz\" is located at the top of the Djebel Murdjadjo, slightly below the former Spanish fort \"Fort de Santa Cruz\". The place is managed by the Diocese of Oran."
+    },
+    {
+      "id": 2,
+      "name": "La Cathédrale du Sacré Coeur",
+      "image": "https://www.oran-dz.com/pics/tourisme/que-visiter/chapelle-santa-cruz-vue-ville-oran.jpg",
+      "distance": "",
+      "mapLink": "https://www.google.com/maps/place/Cathedrale+du+Sacré-Cœur/@35.7002371,-0.6462022,17z/data=!3m1!4b1!4m6!3m5!1s0xd7e89500e825d49:0xaf105a9d709674dc!8m2!3d35.7002371!4d-0.6462022!16s%2Fg%2F11sytnqdwk?hl=fr-FR&entry=ttu",
+      "description": "The Cathedral of the Sacred Heart was built from 1904 to 1913 by the construction company of the Auguste brothers, it is the work of the architect Albert Ballu who was at the time the architect of the French government of Algeria"
+    },
+    {
+      "id": 3,
+      "name": "1st November Place",
+      "image": "https://i2.wp.com/www.madinati-dz.com/wp-content/uploads/2019/02/placedarmes_fadilakettaf.png?fit=698%2C430&ssl=1",
+      "distance": "",
+      "mapLink": "https://www.google.com/maps/place/Place+Premier+November+1954,+Oran,+Algérie/@35.7032719,-0.6492456,17z/data=!3m1!4b1!4m6!3m5!1s0xd7e88e4d71ec7ef:0x93db231abcfcedd4!8m2!3d35.7032778!4d-0.6492949!16s%2Fg%2F11b8tcdrgr?hl=fr-FR&entry=ttu",
+      "description": "The Place du 1er Novembre 1954 (ex-place d'Armes) is considered the historic heart of the city of Oran, it is at the crossroads of several roads that you came from the port, the waterfront and the city center."
+    },
+    {
+      "id": 4,
+      "name": "Pacha Mosque",
+      "image": "https://guide.en-vols.com/wp-content/uploads/aftg/2022/06/ORN-la-mosquee-de-hassan-pacha-un-symbole-ottoman-doran-2_1-1920x960-3.jpg",
+      "distance": "",
+      "mapLink": "https://www.google.com/maps/place/Mosquée+du+Pacha/@35.7049611,-0.6501832,17z/data=!3m1!4b1!4m6!3m5!1s0xd7e88e56a5324e7:0xbacc8f7eac0e8ff9!8m2!3d35.7049611!4d-0.6501832!16s%2Fm%2F0ch4s8j?hl=fr-FR&entry=ttu",
+      "description": "Located at the bottom of rue benamara Boutkhil, ex rue de Phillippe, the Pasha mosque that became a historical monument classified on 06/08/1952, captivates the curiosity of passers-by, its minaret dominates most houses and seduces the eye with the elegance of its proportions."
+    },
+    {
+      "id": 5,
+      "name": "The Great Synagogue of Oran",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7yradPFo0iaTufUMGdvLjuTSTpIE9K6ytA&s",
+      "distance": "",
+      "mapLink": "https://www.google.com/maps/place/Mosquée+Abdellah+Ben+Salem/@35.7,-0.65,17z/data=!3m1!4b1!4m6!3m5!1s0xd7e88e342a9479b:0x69b67b4c8d41a43f!8m2!3d35.7!4d-0.65!16s%2Fm%2F02710t3?hl=fr-FR&entry=ttu",
+      "description": "The Great Synagogue of Oran (Arabic: معبد وهران العظيم), or locally the Great Synagogue, was built and dedicated in 1880 to the initiative of Simon Kanoui, but its inauguration took place only in 1918."
+    },
+    {
+      "id": 6,
+      "name": "Bey Palace",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Palais_du_Bey_%2811%29.jpg",
+      "distance": "",
+      "mapLink": "https://www.google.com/maps/place/Bey+Palace/@35.7054899,-0.6489236,17z/data=!3m1!4b1!4m6!3m5!1s0xd7e88e54d5fd6c5:0x589d3deef32934e1!8m2!3d35.7054899!4d-0.6489236!16s%2Fg%2F1269mqv8c?hl=fr-FR&entry=ttu",
+      "description": "The Bey Palace is a historic palace in Oran, Algeria, dating from the Ottoman era to the 18th century. The palace was classified as a national heritage in 2005."
+    },
+    {
+      "id": 7,
+      "name": "Arena of Oran",
+      "image": "https://guide-oran.com/wp-content/uploads/2018/05/Arènes-doran.jpg",
+      "distance": "",
+      "mapLink": "https://www.google.com/maps/place/Arènes+d'Oran/@35.6856477,-0.6668146,17z/data=!3m1!4b1!4m6!3m5!1s0xd7e89256a656823:0xa6c9f7a67d84f546!8m2!3d35.6856477!4d-0.6668146!16s%2Fg%2F11fy1kqw9x?hl=fr-FR&entry=ttu",
+      "description": "The arenas of Oran is a circular building originally intended for the reception of bull races, located southwest of the city of Oran. These are the only arenas in Algeria and one of the few arenas on the African continent1. Built in 1890 of wood, following a fire it was rebuilt to its current state in 1908 and inaugurated in 1910."
+    },
+    {
+      "id": 8,
+      "name": "The Spanish Gate",
+      "image": "https://algeriepatrimoine.wordpress.com/wp-content/uploads/2021/04/fb_img_1605240839674.jpg",
+      "distance": "",
+      "mapLink": "https://www.google.com/maps/place/باب+كناستيل%E2%80%AD/@35.705128,-0.6612423,15z/data=!4m10!1m2!2m1!1sbab+canastel+oran!3m6!1s0xd7e89c57191c59f:0x233fee0044b0be1f!8m2!3d35.705128!4d-0.6524876!15sChFiYWIgY2FuYXN0ZWwgb3JhbpIBEWN1bHR1cmFsX2xhbmRtYXJr4AEA!16s%2Fg%2F11ss3m0x3x?hl=fr-FR&entry=ttu",
+      "description": "The Spanish Gate (originally called Ximénès Gate) is a monumental vaulted door located in the Sidi El Houari district (Dahli brothers street) and is currently one of the most important remains still preserved of Spanish architecture in Oran."
     }
   ],
   "Parcs": [
