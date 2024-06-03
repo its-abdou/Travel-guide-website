@@ -33,6 +33,9 @@ function Navbar({ isAuthenticated }) {
               <NavDropdown.Item as={Link} to="/Services/Restaurents">
                 Restaurents
               </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Services/Otherservices">
+                Other Services
+              </NavDropdown.Item>
             </NavDropdown>
             {isAuthenticated ? (
               <>

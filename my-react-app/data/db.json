@@ -355,7 +355,7 @@
       "description": "Delicious Italian cuisine with a modern twist."
     }
   ],
-  "Other Services": [
+  "OtherServices": [
     {
       "id": 1,
       "name": "Hospitals",
@@ -506,11 +506,43 @@
   "Malls": [
     {
       "id": 1,
-      "name": "",
-      "image": "",
-      "distance": "",
-      "mapLink": "",
-      "description": ""
+      "name": "Es-Senia Shopping & Leisure Center",
+      "image": "https://guide-oran.com/wp-content/uploads/2021/09/Senia-Centre-feature-picture-2.png",
+      "distance": " Es-senia 31000, Oran.",
+      "mapLink": "https://maps.app.goo.gl/SrSCto6jzYEoZuSS7",
+      "description": "Huge indoor Shopping Center with famous international brands and restaurants with a relaxed atmosphere."
+    },
+    {
+      "id": 2,
+      "name": "Rodina Mall",
+      "image": "https://i.ytimg.com/vi/rZ7wVLReJik/maxresdefault.jpg",
+      "distance": "3rd Peripheral Boulevard, Es Sénia, Oran",
+      "mapLink": "https://www.google.com/maps/place/Rodina+Mall/@35.6804776,-0.6108836,17z/data=!3m1!4b1!4m6!3m5!1s0xd7e89e262660817:0x2d78059249a79918!8m2!3d35.6804777!4d-0.6060127!16s%2Fg%2F11hzzyk9ft?entry=ttu",
+      "description": "The RODINA MALL shopping center is part of a real estate complex combining habitat, hotel, commerce and leisure located in the southwest area of the city of Oran, near the El Bahia roundabout dominating through its size and remarkable architecture the main entrance of the city."
+    },
+    {
+      "id": 3,
+      "name": "Ritadj Mall",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR98t_bmiZzgRbyOek65tYlKbYCUSVXZM2DQg&s",
+      "distance": "Hai Essalem, Cité Amir Abdelkader",
+      "mapLink": "https://maps.app.goo.gl/Y9jURpnXzxx68Vhs6",
+      "description": "Ritaj Mall is designed to welcome the customer well, allow him to have a good time with his family and leave with a big smile, in the hope of having a good impression and already thinking of coming back."
+    },
+    {
+      "id": 4,
+      "name": "Shopping Center Hadja Fatima ",
+      "image": "https://scontent.forn1-2.fna.fbcdn.net/v/t39.30808-6/358630709_249752831142417_6715071579889912615_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFAaJDMRcrPtalOkuhimGCy6QoCLYsOxrHpCgItiw7GsfwvefegQh6w4l55CS4tafcA4bFx4GUs3Twhar05CsMc&_nc_ohc=AFevF8QZFf0Q7kNvgHqa7le&_nc_zt=23&_nc_ht=scontent.forn1-2.fna&oh=00_AYAPY_qcz4Xj2gw_jZ2gu4qTBp-kjVk_TXzZVvcMoyXlaQ&oe=6663578F",
+      "distance": "Ensemble immobilier « Hadja Fatima »Boulevard des lions",
+      "mapLink": "https://maps.app.goo.gl/GR86AqeZCkkAhWcv8",
+      "description": "Shopping Center Hadja Fatima is designed to welcome the customer well, allow him to have a good time with his family and leave with a big smile, in the hope of having a good impression and already thinking of coming back"
+    },
+    {
+      "id": 5,
+      "name": "Khawadja Mall",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbDGzwawh4ZTvOLVfJbvJxB0zuaLb1oD1Bmg&s",
+      "distance": "10,rue mahli mokhtar place du 1er novembre",
+      "mapLink": "https://maps.app.goo.gl/bGQKENtkNa7uzC8KA",
+      "description": "Shopping, vente, alimentation générale, cosmétique et soins, vêtements pour enfants, femmes, hommes, électroménager, informatique, meuble, vaisselle, décoration... etc."
     }
   ]
 }
